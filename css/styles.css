@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+#header-nav {
+  background-color: grey;
+  margin: auto;
+}
+
+.container {
+  border: 3px solid black;
+  width: 100%;
+  height: auto;
+}
+
+.navbar-brand {
+  color: black;
+  font-family: cursive;
+  font-size: 225%;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.icon-bar {
+  background-color: black;
+  margin: 3px;
+  border: 1px solid black;
+  width: 20px;
+}
+
+.visible-xs {
+  visibility: visible;
+}
+
+#collapsable-nav {
+  border-color: black;
+  text-align: center;
+}
+
+#nav-list li {
+  background-color: white;
+}
+
+#nav-list a {
+  color: black;
+  font-family: cursive;
+  font-size: 125%;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+#nav-list a:hover {
+  background-color: lightgray;
+}
+
+.text-center {
+  color: black;
+  font-family: cursive;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.food {
+  background-color: grey;
+  color: black;
+  font-family: cursive;
+  font-size: 125%;
+  padding: 15px;
+  margin: 10px;
+}
+
+p {
+  font-size: 130%;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+}
